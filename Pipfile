@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+netmiko = "==3.4.0"
+pyats = "==21.4"
+genie = "==21.4"
 
 [dev-packages]
+black = "*"
+bpython = "*"
 
 [requires]
 python_version = "3.7"
